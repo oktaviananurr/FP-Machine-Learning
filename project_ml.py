@@ -4,7 +4,6 @@ import cv2
 import numpy as np
 import tempfile
 from glob import glob
-from yolov5.detect import run  # pastikan ini mengarah ke file detect.py dari YOLOv5
 import streamlit as st
 from collections import Counter  # jangan lupa ini kalau pakai Counter
 
