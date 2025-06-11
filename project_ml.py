@@ -4,7 +4,6 @@ import cv2
 import numpy as np
 import tempfile
 from glob import glob
-import streamlit as st
 from collections import Counter  # jangan lupa ini kalau pakai Counter
 
 # ✅ INI HARUS PALING ATAS setelah import
