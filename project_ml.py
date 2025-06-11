@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1SKxlt2wy6oywc8Rb1_HFdPevsEUSvi7Y
 """
 
-#check NVIDIA
-!nvidia-smi
-
 #koneksi drive
 from google.colab import drive
 drive.mount('/content/gdrive')
