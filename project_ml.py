@@ -1,10 +1,12 @@
 
 import os
 import cv2
+from yolov5.detect import run  # pastikan ini mengarah ke file detect.py dari YOLOv5
+import streamlit as st
 import numpy as np
 import tempfile
 from glob import glob
-from collections import Counter  # jangan lupa ini kalau pakai Counter
+
 
 # ✅ INI HARUS PALING ATAS setelah import
 st.set_page_config(page_title="Deteksi Gangguan Kulit", layout="wide")
