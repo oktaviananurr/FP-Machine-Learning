@@ -1,0 +1,30 @@
+names:
+- Darier_s-Disease
+- Epidermolysis-Bullosa-Pruriginosa
+- Hailey-Hailey-Disease
+- Hemangiome
+- Impetigo
+- Leishmanios
+- Lupus-Erythematosus-Chronicus-Discoides
+- Melanoma
+- Molluscum-Contagiosum
+- Porokeratosis
+- Psoriasis
+- Tinea-Corporis
+- Tungiasis
+- acne
+- basal-cell-carcinoma
+- eczema
+- lichen
+- nevus
+- normal skin
+nc: 19
+roboflow:
+  license: CC BY 4.0
+  project: new-mod-nabkg
+  url: https://universe.roboflow.com/harsh-shakya-yytye/new-mod-nabkg/dataset/1
+  version: 1
+  workspace: harsh-shakya-yytye
+test: /content/gdrive/MyDrive/YOLOSKIN/New-Mod-1/test/images
+train: /content/gdrive/MyDrive/YOLOSKIN/New-Mod-1/train/images
+val: /content/gdrive/MyDrive/YOLOSKIN/New-Mod-1/valid/images
